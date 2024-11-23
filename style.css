@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.container {
+    margin: 15px;
+    padding: 5px;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.title ul {
+    display: inline;
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.title li {
+    display: inline;
+    list-style: none;
+    color: grey;
+    padding-left: 15px;
+}
+
+.title li:hover {
+    color: white;
+}
+
+.img-container {
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.img-container__one,
+.img-container__two,
+.img-container__three,
+.img-container__four {
+    border: black solid 2px;
+    padding: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    height: 400px;
+
+
+}
+
+.img-container__one img,
+.img-container__two img,
+.img-container__three img,
+.img-container__four img {
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.img-container__one button,
+.img-container__two button,
+.img-container__three button,
+.img-container__four button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.contact {
+    background-color: burlywood;
+    margin-top: 30px;
+    padding-top: 10px;
+    
+}
+.form-container{
+    text-align: center;
+    margin-top: 10px;
+}
+.contact h4{
+    padding-top: 20px;
+    text-align: center;
+    font-size: larger;
+}
+.form-container button{
+    width: 20%;
+    background-color: darkgoldenrod;
+    padding: 5px;
+    margin-bottom: 30px;
+}
